@@ -1,4 +1,4 @@
-class Conta {
+class EstruturaConta {
 
     double saldo;
     int agencia;
@@ -9,11 +9,11 @@ class Conta {
 >Um objeto é uma instância de uma classe onde podemos definir valores para seus atributos. 
 >Para criar uma instância precisamos usar a palavra chave new.  */
 
-public class estruturaConta {
+public class CriaConta {
 
     public static void main(String[] args) {
         
-        Conta primeiroCliente =  new Conta();
+        EstruturaConta primeiroCliente =  new EstruturaConta();
         primeiroCliente.saldo = 200;
         System.out.println(primeiroCliente.saldo);
 
